@@ -1,0 +1,21 @@
+//Life universe everything problem spoj
+
+#include <stdio.h>
+
+#define s(x) scanf("%d",&x)
+#define sf(z) scanf("%f",&z)
+#define ss(z) scanf("%f",&z)
+#define p(y) printf("%d",y)
+#define pf(k) scanf("%f",&k)
+#define ps(k) printf("%s",k)
+
+
+int main(){ int x;
+while(1){
+s(x);
+if(x!=42){
+p(x);ps("\n");}
+else return 0;
+}
+
+return 0;}
