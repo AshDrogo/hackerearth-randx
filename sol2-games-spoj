@@ -1,0 +1,17 @@
+//solution for Game How may games spoj
+#include <iostream>
+#define s(x) scanf("%d",&x)
+#define sf(z) scanf("%f",&z)
+#define p(y) printf("%f",y)
+using namespace std;
+
+int main() {
+	
+	int T;float f,n;s(T);
+	while(T)
+	 {sf(n);
+	 f = n - (int)n;
+	 p(1.00/f);
+	 T--;}
+	return 0;
+}
