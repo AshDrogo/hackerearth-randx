@@ -8,3 +8,6 @@ int count_one (int n)
     return count;
 }
 
+// Complexity: O(K), where K is the number of ones present in the binary form of the given number.
+// Above was actually a log(N) problem with base 2.
+

@@ -1,0 +1,22 @@
+https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+
+#include <stdio.h>
+#define s(x) scanf("%d",&x)
+#define p(y) printf("%d\n",y)
+
+int count_one (int n){ int count=0;
+    while(n)
+    {n = n & (n-1);
+     count++;
+    } return count;}
+
+int main()
+{
+    int T,N;s(T);while(T)
+    {
+    	s(N);p(count_one(N));
+    	T--;
+    }
+    
+    return 0;
+}
