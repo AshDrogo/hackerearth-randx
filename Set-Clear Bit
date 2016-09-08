@@ -1,0 +1,7 @@
+The binary representation of a number consists of a sequence of bits ('binary digits") each of which may have the value 0 or 1.
+
+The bits are numbered starting from 0, with bit 0 being the least significant bit.
+
+Describing a bit as being "set" or "clear" is just another way of saying that the bit has the value 1 (set) or 0 (clear).
+
+To find if the Nth bit of an integer is set you can use a shift operation to check the value of only that one specific bit.
